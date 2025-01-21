@@ -11,6 +11,7 @@ const int ChanlunCore::DIR_DN = -1;
 const int ChanlunCore::DIR_XBH = -2;
 const int ChanlunCore::DIR_SBH = 2;
 //缺口要单独定义一个字段出来吗
+//单独定义出来吧，简化业务逻辑
 const int ChanlunCore::QK_N = 0; // 不存在缺口
 const int ChanlunCore::QK_Y = 1; // 存在缺口
 
