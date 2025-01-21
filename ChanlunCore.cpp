@@ -12,6 +12,8 @@ const int ChanlunCore::DIR_XBH = -2;
 const int ChanlunCore::DIR_SBH = 2;
 //缺口要单独定义一个字段出来吗
 //单独定义出来吧，简化业务逻辑
+//那就全都是0,1，-1 0 未处理 1 向上 2 向下
+// 0,1，-1 0没有缺口  1 向上缺口  2 向下缺口
 const int ChanlunCore::QK_N = 0; // 不存在缺口
 const int ChanlunCore::QK_Y = 1; // 存在缺口
 
